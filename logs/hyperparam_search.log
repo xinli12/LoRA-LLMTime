@@ -1,0 +1,13 @@
+=== Part (b): Running hyperparameter search ===
+This will test combinations of:
+- Learning rates: 1e-5, 5e-5, 1e-4
+- LoRA ranks: 2, 4, 8
+- Context lengths: 128, 512, 768 (for best configuration)
+
+
+=== Hyperparameter search completed ===
+Results are available in results/hyperparameter_search/
+See summary_report.md for an overview of the results.
+
+=== All experiments completed ===
+The results are available in the results/ directory.

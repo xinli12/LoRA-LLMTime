@@ -1,0 +1,78 @@
+# Figure properties
+figure.figsize: 6, 4
+# figure.dpi: 300
+figure.facecolor: white
+figure.edgecolor: white
+
+# Font properties
+font.family: serif
+font.serif: Computer Modern Roman, DejaVu Serif, Times New Roman, serif
+font.size: 12
+font.weight: normal
+# text.usetex: True  # Use LaTeX for text rendering
+text.latex.preamble: \usepackage{amsmath} \usepackage{amssymb} \usepackage{physics}
+
+# Axes properties
+axes.titlesize: 14
+axes.labelsize: 12
+axes.linewidth: 1.0
+axes.grid: True
+axes.axisbelow: True
+axes.prop_cycle: cycler(color=['xkcd:sky blue', 'xkcd:coral', 'xkcd:grass green', 'xkcd:goldenrod', 'xkcd:hot pink', 'xkcd:light orange', 'xkcd:turquoise', 'xkcd:lavender'])
+axes.formatter.limits: -4, 4
+axes.formatter.use_mathtext: True
+axes.formatter.useoffset: False
+axes.spines.top: True
+axes.spines.right: True
+axes.spines.bottom: True
+axes.spines.left: True
+
+# Grid properties
+grid.linestyle: --
+grid.linewidth: 0.5
+grid.alpha: 0.5
+
+# Legend properties
+legend.frameon: True
+legend.framealpha: 0.8
+legend.fancybox: True
+legend.fontsize: 10
+legend.edgecolor: 0.8
+legend.borderpad: 0.4
+legend.columnspacing: 1.0
+legend.handlelength: 2.0
+
+# Tick properties
+xtick.direction: in
+ytick.direction: in
+xtick.major.size: 6
+ytick.major.size: 6
+xtick.minor.size: 3
+ytick.minor.size: 3
+xtick.major.width: 1.0
+ytick.major.width: 1.0
+xtick.minor.width: 0.5
+ytick.minor.width: 0.5
+xtick.top: True
+ytick.right: True
+xtick.minor.visible: True
+ytick.minor.visible: True
+xtick.labelsize: 10
+ytick.labelsize: 10
+
+# Line properties
+lines.linewidth: 1.5
+lines.markersize: 6
+lines.markeredgewidth: 1.0
+
+# Errorbar properties
+errorbar.capsize: 3
+
+# Scatter properties
+scatter.marker: o
+
+# Saving properties
+savefig.dpi: 300
+savefig.format: pdf
+savefig.bbox: tight
+savefig.pad_inches: 0.1

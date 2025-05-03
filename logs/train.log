@@ -1,0 +1,4 @@
+=== Part (a): Running single LoRA configuration with default parameters ===
+Rank: 4, Learning Rate: 1e-5, Context Length: 512, Steps: 1000
+=== Done! ===
+Results are available in results/lora/

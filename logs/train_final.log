@@ -1,0 +1,4 @@
+=== Part (c): Training final model ===
+Rank: 8, Learning Rate: 1e-4, Context Length: 768, Steps: 2000
+=== Done! ===
+Results are available in results/final_model/

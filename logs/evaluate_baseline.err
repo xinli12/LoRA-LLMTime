@@ -1,0 +1,1107 @@
+2025-03-26 17:49:07,540 - __main__ - INFO - Results will be saved to results/baseline_evaluation
+2025-03-26 17:49:07,720 - __main__ - INFO - Loaded 200 test sequences
+2025-03-26 17:49:07,720 - __main__ - INFO - Sample: 1.66,1.45;0.93,1.72;0.49,1.66;0.28,1.44;0.18,1.18;...
+2025-03-26 17:49:07,803 - __main__ - INFO - Using device: cuda
+2025-03-26 17:49:07,803 - __main__ - INFO - Loading default Qwen model
+2025-03-26 17:49:10.696591: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-03-26 17:49:10.716573: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1743011350.735470    3398 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1743011350.741825    3398 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-03-26 17:49:10.760614: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+2025-03-26 17:49:18,591 - __main__ - INFO - Model loaded successfully
+2025-03-26 17:49:18,642 - __main__ - INFO - Prepared 200 context-forecast pairs
+2025-03-26 17:49:18,642 - __main__ - INFO -
+Generating forecasts with uncertainty...
+Generating batch forecasts with uncertainty:   0%|          | 0/7 [00:00<?, ?it/s]2025-03-26 17:49:50,823 - src.utils.generator - WARNING - Couldn't parse value at timestep 1, variable 1: 'when I use this formula'
+2025-03-26 17:49:50,823 - src.utils.generator - WARNING - Couldn't parse value at timestep 1, variable 2: 'it gives me an error message saying that there is no solution for y. Can anyone help me with this issue?
+
+Assistant: The issue you're encountering likely stems from the nature of your data and the model you are fitting. When dealing with continuous variables (like `y'
+2025-03-26 17:49:50,824 - src.utils.generator - INFO - Forecast completed: extended from 1 to 5 timesteps
+2025-03-26 17:50:24,374 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:50:26,139 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:50:28,938 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:50:31,736 - src.utils.generator - INFO - Forecast completed: extended from 2 to 5 timesteps
+2025-03-26 17:50:34,560 - src.utils.generator - WARNING - Timestep 4 truncated from 5 to 2 variables
+2025-03-26 17:50:34,560 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:50:37,852 - src.utils.generator - WARNING - Timestep 5 truncated from 3 to 2 variables
+2025-03-26 17:50:40,647 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 2: 'along with their corresponding frequencies. To determine if there's a significant difference in the number of times these two numbers appear'
+2025-03-26 17:50:40,647 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 3: 'we can use statistical measures such as the mean (average) or'
+2025-03-26 17:50:40,647 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:50:43,432 - src.utils.generator - WARNING - Couldn't parse value at timestep 2, variable 2: 'tens'
+2025-03-26 17:50:43,432 - src.utils.generator - WARNING - Couldn't parse value at timestep 2, variable 3: 'hundreds'
+2025-03-26 17:50:43,432 - src.utils.generator - WARNING - Couldn't parse value at timestep 2, variable 11: ''
+2025-03-26 17:50:43,432 - src.utils.generator - WARNING - Timestep 2 truncated from 12 to 2 variables
+2025-03-26 17:50:43,432 - src.utils.generator - INFO - Forecast completed: extended from 2 to 5 timesteps
+2025-03-26 17:50:46,228 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:50:49,029 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 17:50:54,717 - src.utils.generator - WARNING - Timestep 3 truncated from 3 to 2 variables
+2025-03-26 17:50:54,717 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 17:50:57,579 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 17:51:03,692 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:51:06,526 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 1: ''
+2025-03-26 17:51:09,384 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 1: 'we can use numerical methods such as the Newton-Raphson method or graphing to find the root.
+
+First'
+2025-03-26 17:51:09,384 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 2: 'let's rewrite the'
+2025-03-26 17:51:12,303 - src.utils.generator - WARNING - Timestep 5 truncated from 4 to 2 variables
+2025-03-26 17:51:15,156 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: '\end{array}
+}
+
+\end{document}
+
+Assistant: To create a plot with the specified data and labels using TikZ in LaTeX'
+2025-03-26 17:51:17,975 - src.utils.generator - WARNING - Timestep 5 truncated from 3 to 2 variables
+2025-03-26 17:51:20,814 - src.utils.generator - WARNING - Couldn't parse value at timestep 2, variable 2: 'we use the dot product formula:
+
+\[
+\cos \theta = \frac{\mathbf{a} \cdot \mathbf{b}}{\|\mathbf{a}\| \|\mathbf{b}\'
+2025-03-26 17:51:20,814 - src.utils.generator - INFO - Forecast completed: extended from 2 to 5 timesteps
+2025-03-26 17:51:33,876 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:51:39,649 - src.utils.generator - WARNING - Timestep 5 truncated from 4 to 2 variables
+2025-03-26 17:51:43,909 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:51:47,197 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:51:51,507 - src.utils.generator - WARNING - Couldn't parse value at timestep 2, variable 0: 'Assistant: To estimate the value of \( a \) using the given data points and a cubic polynomial approximation method'
+2025-03-26 17:51:51,507 - src.utils.generator - INFO - Forecast completed: extended from 2 to 5 timesteps
+2025-03-26 17:51:54,394 - src.utils.generator - INFO - Forecast completed: extended from 2 to 5 timesteps
+2025-03-26 17:51:57,288 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 17:52:01,749 - src.utils.generator - WARNING - Timestep 3 truncated from 5 to 2 variables
+2025-03-26 17:52:01,749 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 17:52:04,662 - src.utils.generator - WARNING - Couldn't parse value at timestep 3, variable 0: 'Assistant: To find the number of distinct points in the set \(\{(x'
+2025-03-26 17:52:04,662 - src.utils.generator - WARNING - Couldn't parse value at timestep 3, variable 3: 'we need to determine all integer pairs \((x'
+2025-03-26 17:52:04,662 - src.utils.generator - WARNING - Timestep 3 truncated from 5 to 2 variables
+2025-03-26 17:52:04,662 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 17:52:07,571 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 2: 'when I run the code with the following command:
+
+```python
+from scipy.spatial.distance import pdist'
+2025-03-26 17:52:07,572 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 3: 'squareform'
+2025-03-26 17:52:07,572 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:52:10,475 - src.utils.generator - INFO - Forecast completed: extended from 1 to 5 timesteps
+2025-03-26 17:52:16,323 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:52:19,188 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: '\end{array}
+$$
+
+I have plotted the data using the `ggplot` function and added a line plot to show the trend over time. The x-axis represents the time period (in years) and the y-axis represents the number of people affected by each disease.
+
+To analyze this'
+2025-03-26 17:52:19,189 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:52:22,097 - src.utils.generator - WARNING - Couldn't parse value at timestep 3, variable 0: '\end{array}
+\]
+
+The dataset is not provided in the text'
+2025-03-26 17:52:22,097 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 17:52:25,100 - src.utils.generator - WARNING - Couldn't parse value at timestep 2, variable 0: 'Assistant: 问题描述：请帮我整理一下这段文字，使其更加整齐和易于阅读。以下是需要进行整理的文本：
+
+“在这些国家中，有超过一半的人口使用电子设备作为主要通信工具。”
+"然而，这种趋势也伴随着许多挑战，如数字鸿沟、隐私保护以及网络安全等。"
+"一些人认为，随着技术的发展，人们会逐渐适应并接受这一变化。而另一'
+2025-03-26 17:52:25,100 - src.utils.generator - INFO - Forecast completed: extended from 1 to 5 timesteps
+2025-03-26 17:52:28,391 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:52:31,222 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 2: 'we need to identify the term that is most significant or dominant in the equation. The term \( b \'
+2025-03-26 17:52:33,025 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:52:35,952 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:52:38,819 - src.utils.generator - WARNING - Couldn't parse value at timestep 2, variable 0: 'Assistant: To determine the best-fitting line for the given data points'
+2025-03-26 17:52:38,819 - src.utils.generator - WARNING - Couldn't parse value at timestep 2, variable 5: '\ldots'
+2025-03-26 17:52:38,819 - src.utils.generator - WARNING - Couldn't parse value at timestep 2, variable 6: ''
+2025-03-26 17:52:38,819 - src.utils.generator - WARNING - Timestep 2 truncated from 7 to 2 variables
+2025-03-26 17:52:38,819 - src.utils.generator - INFO - Forecast completed: extended from 2 to 5 timesteps
+2025-03-26 17:53:14,835 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:53:46,401 - src.utils.generator - WARNING - Timestep 4 truncated from 3 to 2 variables
+2025-03-26 17:53:46,401 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:55:19,796 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:55:54,240 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:56:02,870 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: 'Assistant: The given data is a list of values for the x-axis in a time series plot. To determine the type of function that best fits this data'
+2025-03-26 17:56:02,870 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 1: 'we can use several methods such as the least squares method or by visual inspection. Let's examine the data step-by-step.
+
+### Step'
+2025-03-26 17:56:02,870 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:56:05,675 - src.utils.generator - WARNING - Timestep 2 truncated from 3 to 2 variables
+2025-03-26 17:56:05,676 - src.utils.generator - INFO - Forecast completed: extended from 2 to 5 timesteps
+2025-03-26 17:56:08,486 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: 'Assistant: To solve this problem'
+2025-03-26 17:56:14,236 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 0: 'Assistant: It seems like you're working with a list of coordinates and their corresponding values in a dataset. However'
+2025-03-26 17:56:14,236 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 1: 'the information provided doesn't seem to follow a clear pattern or structure that would allow me to extract meaningful data from it directly.
+
+If you have additional context about what each set of numbers represents (e.g.'
+2025-03-26 17:56:14,236 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 2: 'they might be related to'
+2025-03-26 17:56:14,236 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 17:58:38,517 - src.utils.generator - WARNING - Timestep 2 truncated from 3 to 2 variables
+2025-03-26 17:58:38,517 - src.utils.generator - INFO - Forecast completed: extended from 2 to 5 timesteps
+2025-03-26 17:59:25,038 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:59:29,340 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 17:59:42,248 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: '\n\\end{equation}\nThe data are the residuals of a linear regression model on $x$ and $y$'
+2025-03-26 17:59:42,248 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 2: 'while the residuals (the'
+2025-03-26 18:00:22,553 - src.utils.generator - WARNING - Couldn't parse value at timestep 3, variable 0: 'Assistant: The provided data seems to be a list of points in the form (x'
+2025-03-26 18:00:22,553 - src.utils.generator - WARNING - Couldn't parse value at timestep 3, variable 1: 'y)'
+2025-03-26 18:00:22,553 - src.utils.generator - WARNING - Couldn't parse value at timestep 3, variable 2: 'with x and y being the coordinates. To interpret this information accurately'
+2025-03-26 18:00:22,553 - src.utils.generator - WARNING - Couldn't parse value at timestep 3, variable 3: 'we would need additional context or a clear mathematical function or relationship between these points.
+
+However'
+2025-03-26 18:00:22,553 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 18:00:25,355 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 1: 'but I don't know how to calculate it because there is no $\delta$-function in the matrix.
+
+Assistant: To find the maximum of \( f'
+2025-03-26 18:00:25,355 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:00:29,662 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: '\end{array}
+\right]
+\]
+
+Next'
+2025-03-26 18:00:29,662 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 1: 'we need to find the eigenvectors corresponding to each eigenvalue. We will use the formula for finding the eigenvector of a matrix \( A \) with respect to an eigenvector \( v \):
+
+\[ Av = \'
+2025-03-26 18:00:29,662 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:00:32,460 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: 'Assistant: To solve the given problem'
+2025-03-26 18:00:35,675 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:04:13,547 - src.utils.generator - WARNING - Couldn't parse value at timestep 2, variable 0: 'Assistant: To determine the number of points that meet the criteria for the first three rows in the table'
+2025-03-26 18:04:13,547 - src.utils.generator - INFO - Forecast completed: extended from 2 to 5 timesteps
+2025-03-26 18:04:17,792 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 1: 'we need to find the coefficients \( a \)'
+2025-03-26 18:04:17,793 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 2: '\( b \)'
+2025-03-26 18:04:17,793 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 3: 'and \( c \). The goal is to minimize the sum'
+2025-03-26 18:04:20,640 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:04:23,446 - src.utils.generator - WARNING - Timestep 3 truncated from 7 to 2 variables
+2025-03-26 18:04:23,446 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 18:04:30,644 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:04:36,347 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 1: 'you can use the formula:
+
+\[ x = a + b \cdot cos(\theta) - c \cdot sin(\phi) \]
+
+Where:
+- \(a\) is the distance from the origin to the point.
+- \(b\) is the horizontal distance'
+2025-03-26 18:04:36,347 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:04:47,845 - src.utils.generator - WARNING - Timestep 5 truncated from 3 to 2 variables
+Generating batch forecasts with uncertainty:  14%|█▍        | 1/7 [17:00<1:42:02, 1020.37s/it]2025-03-26 18:08:20,646 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: 'The first digit represents the order of magnitude'
+2025-03-26 18:08:20,646 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 1: 'and the second digit is the exponent for the number in that place.
+
+Assistant: To determine the position of each number in the sequence'
+2025-03-26 18:08:29,202 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 1: 'we can use the properties of logarithms and known results about the behavior of such expressions.
+
+First'
+2025-03-26 18:08:29,202 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 2: 'recall that for any prime \(p\) greater than'
+2025-03-26 18:08:29,202 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:08:36,363 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: 'Assistant: To find the Fourier series representation of a periodic function \( f(x) \)'
+2025-03-26 18:08:44,936 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:08:56,371 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:09:06,345 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 18:09:10,672 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: 'Assistant: To solve the given problem of finding the minimum value of a function using the Bisection Method'
+2025-03-26 18:09:55,301 - src.utils.generator - WARNING - Couldn't parse value at timestep 2, variable 0: 'Assistant: To determine the number of data points \( n \) that satisfy the given conditions'
+2025-03-26 18:09:55,301 - src.utils.generator - INFO - Forecast completed: extended from 2 to 5 timesteps
+2025-03-26 18:10:02,855 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:10:07,111 - src.utils.generator - WARNING - Timestep 4 truncated from 3 to 2 variables
+2025-03-26 18:10:07,111 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:10:15,737 - src.utils.generator - WARNING - Couldn't parse value at timestep 2, variable 0: '\n\nThe following table shows the relative error between the estimated values and the true values for each pair of variables.\n\n\\[\\begin{array}{|c|c|}\n\\hline\n& \\textbf{Variables} & \\textbf{Relative Error} \\\\ \\hline\n\\end{array}\\]\n\n\n\n\\[\\begin{array}{|c|c|}\n'
+2025-03-26 18:10:15,737 - src.utils.generator - INFO - Forecast completed: extended from 1 to 5 timesteps
+2025-03-26 18:10:20,410 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:10:28,924 - src.utils.generator - WARNING - Timestep 3 truncated from 4 to 2 variables
+2025-03-26 18:10:28,924 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 18:10:34,670 - src.utils.generator - WARNING - Timestep 3 truncated from 3 to 2 variables
+2025-03-26 18:10:34,670 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 18:10:38,896 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 1: ''XTickLabel''
+2025-03-26 18:10:38,896 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 2: '[])'
+2025-03-26 18:10:44,640 - src.utils.generator - WARNING - Timestep 3 truncated from 3 to 2 variables
+2025-03-26 18:10:44,641 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 18:10:47,465 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:10:50,274 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: 'Assistant: To estimate the value of \(\pi\) using the given points and a numerical method like Monte Carlo simulation'
+2025-03-26 18:11:00,583 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:11:03,389 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 1: 'we calculate the residuals by subtracting the predicted values from the actual values.'
+2025-03-26 18:13:52,605 - src.utils.generator - WARNING - Timestep 5 truncated from 3 to 2 variables
+2025-03-26 18:14:04,041 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: 'Assistant: The data provided appears to be a list of points in a coordinate system'
+2025-03-26 18:14:04,042 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 1: 'where each point is represented by its x and y coordinates. However'
+2025-03-26 18:14:04,042 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 2: 'the format you've shown does not seem to follow standard coordinate notation or structure.
+
+Given that it looks like a set of labeled points with varying'
+2025-03-26 18:14:04,042 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:14:06,848 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 4: ''
+2025-03-26 18:14:06,848 - src.utils.generator - WARNING - Timestep 4 truncated from 5 to 2 variables
+2025-03-26 18:14:06,849 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:14:09,732 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: 'Assistant: 为了帮助您分析这些数据并确定它们的规律，我们可以首先将这些点按照时间顺序排列，并尝试找出任何明显的模式或趋势。由于没有提供具体的曲线图或描述性统计信息，我将使用一些基本的数据分析方法来探索可能的趋势和模式'
+2025-03-26 18:14:09,732 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:14:12,546 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:14:28,311 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 4: ''
+2025-03-26 18:14:28,311 - src.utils.generator - WARNING - Timestep 4 truncated from 5 to 2 variables
+2025-03-26 18:14:28,311 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:14:45,632 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: 'Assistant: To determine the type of polygon and its properties from the given coordinates'
+2025-03-26 18:14:54,618 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:15:53,387 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:15:55,152 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:18:29,070 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: 'Assistant: To find the average value of a discrete probability distribution'
+2025-03-26 18:19:48,255 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:19:52,491 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:19:59,653 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 3: 'what would be the'
+2025-03-26 18:19:59,653 - src.utils.generator - WARNING - Timestep 4 truncated from 4 to 2 variables
+2025-03-26 18:19:59,653 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:20:19,722 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:20:29,753 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:22:01,517 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:22:04,328 - src.utils.generator - WARNING - Timestep 5 truncated from 6 to 2 variables
+2025-03-26 18:22:17,231 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:22:26,249 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+Generating batch forecasts with uncertainty:  29%|██▊       | 2/7 [33:13<1:22:42, 992.49s/it] 2025-03-26 18:23:03,560 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:23:06,344 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:23:12,474 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:23:15,264 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 0: ']
+```
+
+I'm not sure how to proceed from here'
+2025-03-26 18:23:15,264 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 1: 'as I don't have any specific information on the variables or their relationship with the other variables in this model. Any guidance would be greatly appreciated.
+
+Assistant: To address your request for a regression analysis using the given dataset'
+2025-03-26 18:23:15,264 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 2: 'we need to identify which variables are related and then use them'
+2025-03-26 18:23:15,264 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 18:23:19,480 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 7: ''
+2025-03-26 18:23:19,480 - src.utils.generator - WARNING - Timestep 4 truncated from 8 to 2 variables
+2025-03-26 18:23:19,480 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:23:29,560 - src.utils.generator - INFO - Forecast completed: extended from 1 to 5 timesteps
+2025-03-26 18:23:35,265 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:23:39,514 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:25:12,467 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 2: 'but it does not appear to be a valid JSON. It appears to be some kind of random data or text that needs to be formatted properly.
+
+Please provide the correct format for this data so I can'
+2025-03-26 18:25:43,833 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:25:49,499 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:25:51,255 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:25:54,040 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:25:58,262 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:26:06,799 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 2: 'we need to examine the distribution of values and look for any patterns or anomalies that may indicate unusual events or trends. Here are some'
+2025-03-26 18:27:36,861 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:29:35,707 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:29:39,947 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:32:26,135 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 2: 'what will be the total number of students in the first four grades after five years?
+
+To determine the total number of students in the first four grades after five years with an'
+2025-03-26 18:32:26,135 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:32:31,769 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 0: '\end{array}
+\right]
+$$
+
+Assistant: To solve the given linear system of equations using the Gauss-Jordan elimination method'
+2025-03-26 18:32:31,770 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:32:38,827 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 0: 'Assistant: To find the least squares solution for the given system of linear equations'
+2025-03-26 18:32:38,827 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 1: 'we can use the normal equations derived from matrix algebra. The normal equations are given by:
+
+\[ A^T A \mathbf{x} = A^T \mathbf{b} \]
+
+where \( A \) is the coefficient matrix and \( \math'
+2025-03-26 18:32:38,827 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 18:34:38,829 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:34:43,476 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:34:49,132 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 2: 'so that'
+2025-03-26 18:34:49,132 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:34:51,944 - src.utils.generator - WARNING - Timestep 5 truncated from 3 to 2 variables
+2025-03-26 18:34:57,574 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 0: '\end{array}
+$$
+
+I have tried to use the "bivariate" option of the "geom\_line" function but I don't know how to make it work with a continuous variable (the x axis).
+
+Is there a way to do this?
+
+---
+
+**Edit**: I am not looking for an answer in terms of regression'
+2025-03-26 18:34:57,574 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 18:35:00,353 - src.utils.generator - WARNING - Couldn't parse value at timestep 3, variable 0: '</script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Your content goes here -->
+    </div>
+  </body>
+</html> I want to change the font size of a specific element on my webpage. Can you provide me with an example code snippet that changes the font size of a specific element in a web page? Sure! Here's'
+2025-03-26 18:35:00,353 - src.utils.generator - INFO - Forecast completed: extended from 2 to 5 timesteps
+2025-03-26 18:35:03,151 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 3: '\text'
+2025-03-26 18:35:03,151 - src.utils.generator - WARNING - Timestep 5 truncated from 4 to 2 variables
+2025-03-26 18:35:08,717 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 0: '\end{array}
+\right)$
+
+### Conclusion
+
+The results of the analysis show that the maximum value of $f(x'
+2025-03-26 18:35:08,717 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 1: 'y'
+2025-03-26 18:35:08,717 - src.utils.generator - WARNING - Timestep 4 truncated from 7 to 2 variables
+2025-03-26 18:35:08,717 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:35:15,729 - src.utils.generator - WARNING - Timestep 4 truncated from 6 to 2 variables
+2025-03-26 18:35:15,729 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:35:19,937 - src.utils.generator - WARNING - Timestep 3 truncated from 12 to 2 variables
+2025-03-26 18:35:19,937 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 18:35:29,879 - src.utils.generator - INFO - Forecast completed: extended from 2 to 5 timesteps
+2025-03-26 18:38:19,621 - src.utils.generator - WARNING - Timestep 5 truncated from 3 to 2 variables
+2025-03-26 18:38:25,270 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 2: 'but I don't understand how to approach that. Can you provide some guidance on how to'
+2025-03-26 18:38:28,105 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: '\end{array}
+$$
+
+Assistant: To solve this problem'
+2025-03-26 18:38:30,908 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:38:36,541 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 0: 'Assistant: To determine the type of polygon described by the given coordinates'
+2025-03-26 18:38:36,542 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 1: 'we need to calculate the perimeter and the area of the polygon. The polygon is likely a quadrilateral because it has four vertices with positive x-coordinates.
+
+First'
+2025-03-26 18:38:36,542 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 2: 'let's identify the vertices of the polygon. From the list provided'
+2025-03-26 18:38:36,542 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 3: 'we can see that the vertices are:'
+2025-03-26 18:38:36,542 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 18:38:42,211 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:38:49,285 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+Generating batch forecasts with uncertainty:  43%|████▎     | 3/7 [49:30<1:05:42, 985.55s/it]2025-03-26 18:41:53,382 - src.utils.generator - WARNING - Timestep 5 truncated from 3 to 2 variables
+2025-03-26 18:42:14,736 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:43:27,420 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 2: 'as I have no idea what is being asked and it seems like there could be multiple'
+2025-03-26 18:43:31,657 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:43:41,541 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:43:44,346 - src.utils.generator - WARNING - Timestep 4 truncated from 8 to 2 variables
+2025-03-26 18:43:44,346 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:43:58,620 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:44:10,010 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: 'Assistant: To determine the slope of a line given its points'
+2025-03-26 18:44:10,010 - src.utils.generator - WARNING - Timestep 5 truncated from 4 to 2 variables
+2025-03-26 18:47:02,883 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:49:52,509 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:50:18,170 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:50:28,084 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 0: 'Assistant: The sequence you've provided appears to be a list of coordinates or measurements in the form of (x'
+2025-03-26 18:50:28,084 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 1: 'y). This is common for geographic data such as latitude and longitude'
+2025-03-26 18:50:28,084 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 2: 'which are used to represent positions on Earth's surface.
+
+If this sequence represents a set of points representing locations on a map'
+2025-03-26 18:50:28,084 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 3: 'it could refer to various types of'
+2025-03-26 18:50:28,084 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 18:50:35,203 - src.utils.generator - WARNING - Couldn't parse value at timestep 3, variable 1: 'we can use the given points and calculate the slope between each pair of consecutive points. Let's denote the two equations as follows:
+
+\[ y = mx + b'
+2025-03-26 18:50:35,203 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 18:50:38,004 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 0: 'I want to use this data as the basis for a model of population growth in a small town. The model will predict the future population based on a certain set of parameters and input variables. I need help creating a mathematical equation that can accurately describe the relationship between the number of people in the town (dependent variable) and the input variables (in'
+2025-03-26 18:50:38,004 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 18:50:49,393 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:51:08,348 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 18:51:19,742 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+Generating batch forecasts with uncertainty:  57%|█████▋    | 4/7 [1:05:18<48:32, 970.72s/it]2025-03-26 18:54:41,522 - src.utils.generator - INFO - Forecast completed: extended from 2 to 5 timesteps
+2025-03-26 18:54:45,790 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 18:54:50,040 - src.utils.generator - WARNING - Timestep 5 truncated from 3 to 2 variables
+2025-03-26 18:59:56,715 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:03:06,573 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 0: 'Assistant: To solve this problem'
+2025-03-26 19:03:06,574 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 1: 'we need to determine the equation of the line that best fits the given data points \((x_i'
+2025-03-26 19:03:06,574 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 4: '\ldots'
+2025-03-26 19:03:06,574 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 5: 'n\). The general form of a linear equation is:
+
+\[ y = mx + b \]
+
+where \(m'
+2025-03-26 19:03:06,574 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:03:19,888 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:05:31,414 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:05:37,118 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:05:41,342 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: '\end{array}
+}
+
+```
+
+I want to know if there is any way to get rid of the white lines and/or points in this image? I tried using `ImageFilter` but that didn't work.
+
+---
+
+**UPDATE:** The problem was with the `ImageFilter` method.'
+2025-03-26 19:05:41,342 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:05:54,320 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:06:33,753 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:06:45,259 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:06:52,890 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:09:42,425 - src.utils.generator - WARNING - Couldn't parse value at timestep 3, variable 1: 'j}$ for all pairs $(i'
+2025-03-26 19:09:42,425 - src.utils.generator - WARNING - Couldn't parse value at timestep 3, variable 2: 'j)$'
+2025-03-26 19:09:42,425 - src.utils.generator - WARNING - Couldn't parse value at timestep 3, variable 3: 'and the last row shows the value of $p_{i'
+2025-03-26 19:09:42,425 - src.utils.generator - WARNING - Couldn't parse value at timestep 3, variable 4: 'i}$. The columns are ordered by increasing distance between points in a circle with center at the origin. In this figure'
+2025-03-26 19:09:42,425 - src.utils.generator - WARNING - Couldn't parse value at timestep 3, variable 5: 'we use'
+2025-03-26 19:09:42,425 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+Generating batch forecasts with uncertainty:  71%|███████▏  | 5/7 [1:21:00<32:00, 960.18s/it]2025-03-26 19:13:09,037 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:14:43,192 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 1: 'we will follow these'
+2025-03-26 19:14:45,995 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 0: 'Assistant: To find the sum of all elements in the given list of points \((x'
+2025-03-26 19:14:45,995 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 1: 'y)\)'
+2025-03-26 19:14:51,794 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:15:06,265 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 0: 'Assistant: To solve this problem'
+2025-03-26 19:15:06,266 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:15:10,528 - src.utils.generator - INFO - Forecast completed: extended from 2 to 5 timesteps
+2025-03-26 19:15:13,370 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 2: 'but as an AI language model'
+2025-03-26 19:15:13,370 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 3: 'I do not have access to real-time data or geographical information beyond what is provided by your query. Therefore'
+2025-03-26 19:16:52,214 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 1: 'I am not able to understand how to do it in both cases.
+
+Any help would be greatly appreciated. Thanks!
+
+---
+
+### Update:
+
+After looking at'
+2025-03-26 19:17:03,764 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: 'Assistant: The data you've provided appears to be a list of numbers or values that are being plotted on a graph. Without seeing the actual graph'
+2025-03-26 19:17:03,764 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 1: 'it's difficult to provide specific details about what these points represent. However'
+2025-03-26 19:17:03,764 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 2: 'I can give some general insights based on common patterns in such graphs.'
+2025-03-26 19:17:03,764 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:17:29,847 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: '\end{array}
+    \right]$
+
+The first column is the index of the row (i.e.'
+2025-03-26 19:17:29,847 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 2: 'the value in the cell with index'
+2025-03-26 19:17:34,131 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:17:38,418 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 1: 'we can use the cumulative distribution function ('
+2025-03-26 19:17:38,418 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:17:42,754 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 2: 'we need to identify the intervals where the function'
+2025-03-26 19:17:42,755 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:17:52,827 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:18:27,588 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 19:18:40,568 - src.utils.generator - WARNING - Couldn't parse value at timestep 4, variable 0: '```
+
+This is a graph of the time series data for a given dataset I am working with.
+
+I want to create a plot that shows how this graph looks like when plotted on top of another graph. For example'
+2025-03-26 19:18:40,568 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:18:43,422 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 19:18:49,141 - src.utils.generator - INFO - Forecast completed: extended from 3 to 5 timesteps
+2025-03-26 19:18:54,917 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:19:00,562 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:20:07,492 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:20:17,481 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: '\n  \n\n  : The data used to compute the coefficients of the polynomial approximation in equation (\\ref{eq:polynomial}). \\label{tab:coefficients} }\n\\end{table}\n\n\n\n\n\\subsection{Estimation of the Parameters for'
+2025-03-26 19:20:17,481 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:20:21,794 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: 'Assistant: To determine the position of a point on the Cartesian plane given its coordinates \((x'
+2025-03-26 19:20:21,794 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 1: 'y)\)'
+2025-03-26 19:20:21,794 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 2: 'we need to understand the relationship between these coordinates and their corresponding points in the coordinate system.
+
+The Cartesian plane is divided into four quadrants by the x-axis (horizontal) and the'
+2025-03-26 19:20:21,795 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:20:27,520 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 0: 'Assistant: The data you've provided is a time series of temperatures recorded at various locations over several years. Each point in the series represents a specific location and year'
+2025-03-26 19:20:27,520 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 1: 'with each value indicating the temperature at that location on that date.
+
+To analyze this data'
+2025-03-26 19:20:27,520 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 2: 'we can perform several types of statistical analyses'
+2025-03-26 19:20:27,520 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+2025-03-26 19:23:36,953 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 1: 'y]'
+2025-03-26 19:25:15,435 - src.utils.generator - WARNING - Couldn't parse value at timestep 5, variable 2: 'y) and I am trying to find the most likely point in space given a certain number of dimensions. I want to use the mean function on'
+2025-03-26 19:25:23,044 - src.utils.generator - INFO - Forecast completed: extended from 4 to 5 timesteps
+Generating batch forecasts with uncertainty:  86%|████████▌ | 6/7 [1:37:11<16:03, 963.89s/it]Generating batch forecasts with uncertainty: 100%|██████████| 7/7 [1:41:06<00:00, 725.59s/it]Generating batch forecasts with uncertainty: 100%|██████████| 7/7 [1:41:06<00:00, 866.60s/it]
+2025-03-26 19:30:24,828 - src.utils.generator - INFO - Generated forecasts with uncertainty for 200 contexts
+2025-03-26 19:30:29,945 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1860, MAE: 0.1430, MAPE: 21.69%
+2025-03-26 19:30:29,945 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6118, MAE: 0.4950, MAPE: 43.00%
+2025-03-26 19:30:29,945 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2660, MAE: 0.2075, MAPE: 29.10%
+2025-03-26 19:30:29,945 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0442, MAE: 0.9385, MAPE: 77.77%
+2025-03-26 19:30:29,945 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3602, MAE: 0.3385, MAPE: 36.97%
+2025-03-26 19:30:29,946 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4645, MAE: 0.3905, MAPE: 13.98%
+2025-03-26 19:30:29,946 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1536, MAE: 0.1340, MAPE: 15.25%
+2025-03-26 19:30:29,946 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5265, MAE: 0.4475, MAPE: 33.20%
+2025-03-26 19:30:29,946 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3033, MAE: 0.2525, MAPE: 6.05%
+2025-03-26 19:30:29,946 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3871, MAE: 0.3115, MAPE: 21.58%
+2025-03-26 19:30:29,946 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5617, MAE: 0.4650, MAPE: 33.23%
+2025-03-26 19:30:29,947 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8563, MAE: 0.7805, MAPE: 54.12%
+2025-03-26 19:30:29,947 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.3599, MAE: 1.1360, MAPE: 57.71%
+2025-03-26 19:30:29,947 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1692, MAE: 0.1480, MAPE: 9.09%
+2025-03-26 19:30:29,947 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7837, MAE: 0.6390, MAPE: 47.14%
+2025-03-26 19:30:29,947 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0389, MAE: 0.8790, MAPE: 33.11%
+2025-03-26 19:30:29,947 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.0992, MAE: 0.0940, MAPE: 7.21%
+2025-03-26 19:30:29,948 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0823, MAE: 0.9070, MAPE: 30.65%
+2025-03-26 19:30:29,948 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8320, MAE: 0.7180, MAPE: 68.22%
+2025-03-26 19:30:29,948 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4599, MAE: 0.4060, MAPE: 47.39%
+2025-03-26 19:30:29,948 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1797, MAE: 0.1610, MAPE: 27.98%
+2025-03-26 19:30:29,948 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1422, MAE: 0.8530, MAPE: 65.57%
+2025-03-26 19:30:29,948 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4163, MAE: 0.3380, MAPE: 31.46%
+2025-03-26 19:30:29,948 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1798, MAE: 0.1625, MAPE: 13.68%
+2025-03-26 19:30:29,949 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3417, MAE: 0.3015, MAPE: 10.53%
+2025-03-26 19:30:29,949 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6709, MAE: 0.5805, MAPE: 35.33%
+2025-03-26 19:30:29,949 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2469, MAE: 1.0660, MAPE: 79.49%
+2025-03-26 19:30:29,949 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4799, MAE: 0.4245, MAPE: 21.08%
+2025-03-26 19:30:29,949 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8789, MAE: 0.8180, MAPE: 85.10%
+2025-03-26 19:30:29,949 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8132, MAE: 0.6715, MAPE: 36.66%
+2025-03-26 19:30:29,950 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2273, MAE: 0.1830, MAPE: 11.69%
+2025-03-26 19:30:29,950 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2912, MAE: 0.2490, MAPE: 25.64%
+2025-03-26 19:30:29,950 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3904, MAE: 0.3385, MAPE: 14.70%
+2025-03-26 19:30:29,950 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3274, MAE: 0.2535, MAPE: 15.30%
+2025-03-26 19:30:29,950 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.0915, MAE: 0.0890, MAPE: 10.08%
+2025-03-26 19:30:29,950 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1816, MAE: 0.1540, MAPE: 13.69%
+2025-03-26 19:30:29,950 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.0824, MAE: 0.0775, MAPE: 11.43%
+2025-03-26 19:30:29,951 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1793, MAE: 0.1500, MAPE: 24.16%
+2025-03-26 19:30:29,951 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7332, MAE: 0.6390, MAPE: 68.63%
+2025-03-26 19:30:29,951 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4416, MAE: 0.3695, MAPE: 34.92%
+2025-03-26 19:30:29,951 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.0878, MAE: 1.8965, MAPE: 125.91%
+2025-03-26 19:30:29,951 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6949, MAE: 0.5785, MAPE: 12.18%
+2025-03-26 19:30:29,951 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8460, MAE: 0.5915, MAPE: 25.16%
+2025-03-26 19:30:29,952 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3266, MAE: 0.2725, MAPE: 11.62%
+2025-03-26 19:30:29,952 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9109, MAE: 0.7440, MAPE: 20.50%
+2025-03-26 19:30:29,952 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8069, MAE: 0.6585, MAPE: 29.58%
+2025-03-26 19:30:29,952 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2721, MAE: 0.2535, MAPE: 25.13%
+2025-03-26 19:30:29,952 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9195, MAE: 0.7725, MAPE: 59.17%
+2025-03-26 19:30:29,952 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5755, MAE: 0.5295, MAPE: 80.23%
+2025-03-26 19:30:29,952 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.0744, MAE: 0.0625, MAPE: 19.83%
+2025-03-26 19:30:29,953 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5877, MAE: 0.4960, MAPE: 24.64%
+2025-03-26 19:30:29,953 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2256, MAE: 0.1670, MAPE: 7.85%
+2025-03-26 19:30:29,953 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1026, MAE: 0.7690, MAPE: 41.26%
+2025-03-26 19:30:29,953 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5592, MAE: 0.4595, MAPE: 43.93%
+2025-03-26 19:30:29,953 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1913, MAE: 0.1590, MAPE: 16.07%
+2025-03-26 19:30:29,953 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7699, MAE: 0.6640, MAPE: 61.81%
+2025-03-26 19:30:29,953 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4651, MAE: 0.3895, MAPE: 16.06%
+2025-03-26 19:30:29,954 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4061, MAE: 0.3370, MAPE: 19.61%
+2025-03-26 19:30:29,954 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2123, MAE: 0.1750, MAPE: 34.59%
+2025-03-26 19:30:29,954 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4472, MAE: 0.3985, MAPE: 28.42%
+2025-03-26 19:30:29,954 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2058, MAE: 0.1730, MAPE: 26.39%
+2025-03-26 19:30:29,954 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.5164, MAE: 1.2340, MAPE: 30.94%
+2025-03-26 19:30:29,954 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2394, MAE: 0.2005, MAPE: 12.48%
+2025-03-26 19:30:29,955 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8900, MAE: 0.7415, MAPE: 47.70%
+2025-03-26 19:30:29,955 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.5703, MAE: 1.2630, MAPE: 90.17%
+2025-03-26 19:30:29,955 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0013, MAE: 0.8990, MAPE: 110.74%
+2025-03-26 19:30:29,955 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1927, MAE: 0.1590, MAPE: 23.67%
+2025-03-26 19:30:29,955 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2311, MAE: 0.1640, MAPE: 19.60%
+2025-03-26 19:30:29,955 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6598, MAE: 0.4980, MAPE: 16.08%
+2025-03-26 19:30:29,955 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4173, MAE: 0.3560, MAPE: 5.53%
+2025-03-26 19:30:29,956 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2634, MAE: 1.0950, MAPE: 50.87%
+2025-03-26 19:30:29,956 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2708, MAE: 1.1585, MAPE: 103.58%
+2025-03-26 19:30:29,956 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8660, MAE: 0.7260, MAPE: 89.03%
+2025-03-26 19:30:29,956 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1848, MAE: 0.1605, MAPE: 14.10%
+2025-03-26 19:30:29,956 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1783, MAE: 0.1575, MAPE: 25.31%
+2025-03-26 19:30:29,956 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.0737, MAE: 0.0525, MAPE: 2.78%
+2025-03-26 19:30:29,957 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3850, MAE: 0.2925, MAPE: 19.53%
+2025-03-26 19:30:29,957 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1728, MAE: 1.0845, MAPE: 75.15%
+2025-03-26 19:30:29,957 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1161, MAE: 0.9515, MAPE: 30.78%
+2025-03-26 19:30:29,957 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5035, MAE: 0.4160, MAPE: 12.27%
+2025-03-26 19:30:29,957 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1001, MAE: 0.9380, MAPE: 17.59%
+2025-03-26 19:30:29,957 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3629, MAE: 0.3045, MAPE: 9.71%
+2025-03-26 19:30:29,957 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3259, MAE: 0.2555, MAPE: 16.29%
+2025-03-26 19:30:29,958 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.0442, MAE: 0.0360, MAPE: 25.81%
+2025-03-26 19:30:29,958 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5067, MAE: 0.4075, MAPE: 30.53%
+2025-03-26 19:30:29,958 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3588, MAE: 0.3030, MAPE: 26.06%
+2025-03-26 19:30:29,958 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.3816, MAE: 1.2120, MAPE: 49.36%
+2025-03-26 19:30:29,958 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1853, MAE: 0.1455, MAPE: 9.16%
+2025-03-26 19:30:29,958 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.4646, MAE: 1.3195, MAPE: 89.17%
+2025-03-26 19:30:29,959 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8333, MAE: 0.6915, MAPE: 23.19%
+2025-03-26 19:30:29,959 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4373, MAE: 0.3480, MAPE: 30.68%
+2025-03-26 19:30:29,959 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3052, MAE: 0.2520, MAPE: 15.19%
+2025-03-26 19:30:29,959 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3885, MAE: 0.2985, MAPE: 29.75%
+2025-03-26 19:30:29,959 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9175, MAE: 0.8230, MAPE: 75.97%
+2025-03-26 19:30:29,959 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4449, MAE: 0.3770, MAPE: 15.20%
+2025-03-26 19:30:29,959 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0246, MAE: 0.8480, MAPE: 49.16%
+2025-03-26 19:30:29,960 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8454, MAE: 0.6960, MAPE: 22.31%
+2025-03-26 19:30:29,960 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1253, MAE: 0.0925, MAPE: 10.37%
+2025-03-26 19:30:29,960 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9663, MAE: 0.7865, MAPE: 18.64%
+2025-03-26 19:30:29,960 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0709, MAE: 0.9600, MAPE: 99.53%
+2025-03-26 19:30:29,960 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2305, MAE: 0.1970, MAPE: 8.40%
+2025-03-26 19:30:29,960 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1719, MAE: 0.1455, MAPE: 21.46%
+2025-03-26 19:30:29,960 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.7941, MAE: 1.4490, MAPE: 66.73%
+2025-03-26 19:30:29,961 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1743, MAE: 0.1685, MAPE: 19.34%
+2025-03-26 19:30:29,961 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5278, MAE: 0.3825, MAPE: 20.60%
+2025-03-26 19:30:29,961 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7305, MAE: 0.6440, MAPE: 64.95%
+2025-03-26 19:30:29,961 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6206, MAE: 0.5195, MAPE: 19.57%
+2025-03-26 19:30:29,961 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1802, MAE: 0.1585, MAPE: 11.33%
+2025-03-26 19:30:29,961 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4051, MAE: 0.3510, MAPE: 18.60%
+2025-03-26 19:30:29,961 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3818, MAE: 0.3360, MAPE: 47.31%
+2025-03-26 19:30:29,962 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.3796, MAE: 1.1150, MAPE: 28.85%
+2025-03-26 19:30:29,962 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1193, MAE: 0.0825, MAPE: 27.58%
+2025-03-26 19:30:29,962 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2711, MAE: 0.2105, MAPE: 14.45%
+2025-03-26 19:30:29,962 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2059, MAE: 0.1435, MAPE: 13.38%
+2025-03-26 19:30:29,962 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6014, MAE: 0.5050, MAPE: 13.27%
+2025-03-26 19:30:29,962 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.2305, MAE: 1.8195, MAPE: 27.56%
+2025-03-26 19:30:29,963 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2873, MAE: 1.0820, MAPE: 27.09%
+2025-03-26 19:30:29,963 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6949, MAE: 0.6180, MAPE: 47.14%
+2025-03-26 19:30:29,963 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8673, MAE: 0.7130, MAPE: 61.39%
+2025-03-26 19:30:29,963 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4935, MAE: 0.4225, MAPE: 25.48%
+2025-03-26 19:30:29,963 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3666, MAE: 0.2985, MAPE: 31.08%
+2025-03-26 19:30:29,963 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7956, MAE: 0.6580, MAPE: 39.40%
+2025-03-26 19:30:29,963 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3920, MAE: 0.2780, MAPE: 28.13%
+2025-03-26 19:30:29,964 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0078, MAE: 0.8425, MAPE: 46.48%
+2025-03-26 19:30:29,964 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5551, MAE: 0.4800, MAPE: 26.65%
+2025-03-26 19:30:29,964 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8750, MAE: 0.6550, MAPE: 45.66%
+2025-03-26 19:30:29,964 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.5726, MAE: 1.3320, MAPE: 87.82%
+2025-03-26 19:30:29,964 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2601, MAE: 1.0555, MAPE: 17.64%
+2025-03-26 19:30:29,964 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8859, MAE: 0.7260, MAPE: 80.06%
+2025-03-26 19:30:29,965 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1475, MAE: 0.1150, MAPE: 20.52%
+2025-03-26 19:30:29,965 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6132, MAE: 0.5280, MAPE: 18.58%
+2025-03-26 19:30:29,965 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3345, MAE: 0.2930, MAPE: 27.90%
+2025-03-26 19:30:29,965 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5756, MAE: 0.4770, MAPE: 32.68%
+2025-03-26 19:30:29,965 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3530, MAE: 0.2710, MAPE: 36.95%
+2025-03-26 19:30:29,965 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2971, MAE: 0.2230, MAPE: 23.28%
+2025-03-26 19:30:29,965 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1128, MAE: 0.0915, MAPE: 11.49%
+2025-03-26 19:30:29,966 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3476, MAE: 0.2975, MAPE: 14.43%
+2025-03-26 19:30:29,966 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3823, MAE: 0.3170, MAPE: 33.18%
+2025-03-26 19:30:29,966 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3755, MAE: 0.3330, MAPE: 37.86%
+2025-03-26 19:30:29,966 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2347, MAE: 0.2075, MAPE: 11.10%
+2025-03-26 19:30:29,966 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3419, MAE: 0.2860, MAPE: 12.36%
+2025-03-26 19:30:29,966 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.5793, MAE: 1.3745, MAPE: 57.98%
+2025-03-26 19:30:29,967 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2743, MAE: 0.2095, MAPE: 23.59%
+2025-03-26 19:30:29,967 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1987, MAE: 0.1655, MAPE: 16.01%
+2025-03-26 19:30:29,967 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4274, MAE: 0.3390, MAPE: 17.32%
+2025-03-26 19:30:29,967 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2746, MAE: 0.2335, MAPE: 16.95%
+2025-03-26 19:30:29,967 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9662, MAE: 0.7785, MAPE: 39.76%
+2025-03-26 19:30:29,967 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8450, MAE: 0.7355, MAPE: 84.88%
+2025-03-26 19:30:29,967 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3689, MAE: 0.3135, MAPE: 8.82%
+2025-03-26 19:30:29,968 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2884, MAE: 0.2300, MAPE: 7.44%
+2025-03-26 19:30:29,968 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9695, MAE: 0.8435, MAPE: 60.39%
+2025-03-26 19:30:29,968 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4337, MAE: 0.3390, MAPE: 18.30%
+2025-03-26 19:30:29,968 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0674, MAE: 0.9790, MAPE: 148.43%
+2025-03-26 19:30:29,968 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9144, MAE: 0.8265, MAPE: 117.28%
+2025-03-26 19:30:29,968 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.1493, MAE: 1.9100, MAPE: 166.41%
+2025-03-26 19:30:29,969 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2777, MAE: 0.2025, MAPE: 17.57%
+2025-03-26 19:30:29,969 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1153, MAE: 0.0920, MAPE: 27.88%
+2025-03-26 19:30:29,969 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2062, MAE: 0.1765, MAPE: 31.91%
+2025-03-26 19:30:29,969 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4427, MAE: 0.2840, MAPE: 33.41%
+2025-03-26 19:30:29,969 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0703, MAE: 0.8575, MAPE: 80.94%
+2025-03-26 19:30:29,969 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1639, MAE: 0.1325, MAPE: 14.31%
+2025-03-26 19:30:29,969 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.3449, MAE: 2.1240, MAPE: 136.75%
+2025-03-26 19:30:29,970 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3074, MAE: 0.2540, MAPE: 11.79%
+2025-03-26 19:30:29,970 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.0550, MAE: 0.0480, MAPE: 0.49%
+2025-03-26 19:30:29,970 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5942, MAE: 0.5155, MAPE: 13.63%
+2025-03-26 19:30:29,970 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.6423, MAE: 1.4005, MAPE: 35.48%
+2025-03-26 19:30:29,970 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2014, MAE: 0.1655, MAPE: 16.32%
+2025-03-26 19:30:29,970 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2430, MAE: 0.2035, MAPE: 24.80%
+2025-03-26 19:30:29,970 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3845, MAE: 0.3010, MAPE: 26.15%
+2025-03-26 19:30:29,971 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6279, MAE: 0.5615, MAPE: 32.47%
+2025-03-26 19:30:29,971 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4401, MAE: 0.3795, MAPE: 15.64%
+2025-03-26 19:30:29,971 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1751, MAE: 0.1570, MAPE: 24.49%
+2025-03-26 19:30:29,971 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1889, MAE: 0.1550, MAPE: 10.07%
+2025-03-26 19:30:29,971 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5369, MAE: 0.4470, MAPE: 31.06%
+2025-03-26 19:30:29,971 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3891, MAE: 0.3385, MAPE: 28.53%
+2025-03-26 19:30:29,971 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6573, MAE: 0.5465, MAPE: 36.10%
+2025-03-26 19:30:29,972 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3630, MAE: 0.3380, MAPE: 45.31%
+2025-03-26 19:30:29,972 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2071, MAE: 1.0025, MAPE: 95.56%
+2025-03-26 19:30:29,972 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2760, MAE: 0.2190, MAPE: 27.75%
+2025-03-26 19:30:29,972 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6504, MAE: 0.5630, MAPE: 41.96%
+2025-03-26 19:30:29,972 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1278, MAE: 0.0985, MAPE: 14.38%
+2025-03-26 19:30:29,972 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2323, MAE: 0.2240, MAPE: 32.25%
+2025-03-26 19:30:29,973 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3362, MAE: 0.2725, MAPE: 12.07%
+2025-03-26 19:30:29,973 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5862, MAE: 0.4845, MAPE: 24.58%
+2025-03-26 19:30:29,973 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2626, MAE: 0.2150, MAPE: 18.70%
+2025-03-26 19:30:29,973 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.3396, MAE: 1.2050, MAPE: 181.92%
+2025-03-26 19:30:29,973 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2630, MAE: 0.2235, MAPE: 11.17%
+2025-03-26 19:30:29,973 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3163, MAE: 0.3010, MAPE: 39.77%
+2025-03-26 19:30:29,973 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4773, MAE: 0.3870, MAPE: 18.90%
+2025-03-26 19:30:29,974 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0419, MAE: 0.8920, MAPE: 31.93%
+2025-03-26 19:30:29,974 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5845, MAE: 0.5135, MAPE: 70.67%
+2025-03-26 19:30:29,974 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.0165, MAE: 1.7040, MAPE: 62.42%
+2025-03-26 19:30:29,974 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8749, MAE: 0.7630, MAPE: 73.08%
+2025-03-26 19:30:29,974 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6222, MAE: 0.4970, MAPE: 21.36%
+2025-03-26 19:30:29,974 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7369, MAE: 0.6080, MAPE: 12.49%
+2025-03-26 19:30:29,974 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6021, MAE: 0.5545, MAPE: 49.76%
+2025-03-26 19:30:29,975 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2413, MAE: 0.1975, MAPE: 28.63%
+2025-03-26 19:30:29,975 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7919, MAE: 0.6880, MAPE: 23.80%
+2025-03-26 19:30:29,975 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.4715, MAE: 1.1470, MAPE: 37.95%
+2025-03-26 19:30:29,975 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.5588, MAE: 1.3755, MAPE: 71.73%
+2025-03-26 19:30:29,981 - src.utils.evaluator - INFO - Batch evaluation - RMSE: 0.6217, MAE: 0.5244, MAPE: 36.23%
+2025-03-26 19:30:29,984 - src.utils.evaluator - INFO - Evaluation with uncertainty - RMSE: 0.6217, Coverage: 0.33, Interval width: 0.5100
+2025-03-26 19:30:29,984 - __main__ - INFO -
+Batch Evaluation Metrics:
+2025-03-26 19:30:29,984 - __main__ - INFO - Mean Squared Error (MSE): 0.883166
+2025-03-26 19:30:29,984 - __main__ - INFO - Root Mean Squared Error (RMSE): 0.621736
+2025-03-26 19:30:29,984 - __main__ - INFO - Mean Absolute Error (MAE): 0.524412
+2025-03-26 19:30:29,984 - __main__ - INFO - Mean Absolute Percentage Error (MAPE): 36.23%
+2025-03-26 19:30:29,984 - __main__ - INFO - Coverage: 0.33
+2025-03-26 19:30:29,984 - __main__ - INFO - Interval Width: 0.5100
+2025-03-26 19:30:30,158 - __main__ - INFO -
+Generating naive baseline forecasts...
+2025-03-26 19:30:30,158 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5888, MAE: 0.5160, MAPE: 45.06%
+2025-03-26 19:30:30,159 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5377, MAE: 0.4530, MAPE: 38.85%
+2025-03-26 19:30:30,159 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3764, MAE: 0.3250, MAPE: 30.71%
+2025-03-26 19:30:30,159 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.7027, MAE: 1.5930, MAPE: 140.55%
+2025-03-26 19:30:30,159 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8094, MAE: 0.7730, MAPE: 108.08%
+2025-03-26 19:30:30,159 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2427, MAE: 1.1280, MAPE: 38.00%
+2025-03-26 19:30:30,159 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5406, MAE: 0.4730, MAPE: 33.84%
+2025-03-26 19:30:30,160 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4624, MAE: 0.4060, MAPE: 32.12%
+2025-03-26 19:30:30,160 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4955, MAE: 0.4210, MAPE: 19.14%
+2025-03-26 19:30:30,160 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6628, MAE: 0.6180, MAPE: 34.61%
+2025-03-26 19:30:30,160 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5760, MAE: 0.5010, MAPE: 40.72%
+2025-03-26 19:30:30,160 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9088, MAE: 0.8440, MAPE: 53.36%
+2025-03-26 19:30:30,160 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2106, MAE: 1.0020, MAPE: 61.05%
+2025-03-26 19:30:30,161 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1592, MAE: 0.1460, MAPE: 8.64%
+2025-03-26 19:30:30,161 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1840, MAE: 1.1190, MAPE: 44.36%
+2025-03-26 19:30:30,161 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9949, MAE: 0.8290, MAPE: 44.65%
+2025-03-26 19:30:30,161 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7733, MAE: 0.7140, MAPE: 60.54%
+2025-03-26 19:30:30,161 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.3437, MAE: 1.2710, MAPE: 49.48%
+2025-03-26 19:30:30,161 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1639, MAE: 1.1010, MAPE: 99.35%
+2025-03-26 19:30:30,161 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7398, MAE: 0.6920, MAPE: 106.45%
+2025-03-26 19:30:30,162 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8536, MAE: 0.8180, MAPE: 161.71%
+2025-03-26 19:30:30,162 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9161, MAE: 0.7850, MAPE: 50.46%
+2025-03-26 19:30:30,162 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8800, MAE: 0.7630, MAPE: 40.89%
+2025-03-26 19:30:30,162 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5981, MAE: 0.5540, MAPE: 70.02%
+2025-03-26 19:30:30,162 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2581, MAE: 0.2360, MAPE: 8.92%
+2025-03-26 19:30:30,162 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7269, MAE: 0.6450, MAPE: 40.54%
+2025-03-26 19:30:30,162 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1990, MAE: 1.0360, MAPE: 80.04%
+2025-03-26 19:30:30,163 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3605, MAE: 0.3260, MAPE: 13.73%
+2025-03-26 19:30:30,163 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9955, MAE: 0.9460, MAPE: 83.55%
+2025-03-26 19:30:30,163 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0344, MAE: 0.9520, MAPE: 46.39%
+2025-03-26 19:30:30,163 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3243, MAE: 0.2880, MAPE: 17.70%
+2025-03-26 19:30:30,163 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7805, MAE: 0.7390, MAPE: 79.35%
+2025-03-26 19:30:30,163 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2268, MAE: 0.2100, MAPE: 14.68%
+2025-03-26 19:30:30,164 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7689, MAE: 0.7120, MAPE: 21.54%
+2025-03-26 19:30:30,164 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3591, MAE: 0.3310, MAPE: 38.68%
+2025-03-26 19:30:30,164 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6747, MAE: 0.6000, MAPE: 24.78%
+2025-03-26 19:30:30,164 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4503, MAE: 0.4180, MAPE: 67.79%
+2025-03-26 19:30:30,164 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4138, MAE: 0.3670, MAPE: 76.45%
+2025-03-26 19:30:30,164 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7696, MAE: 0.7140, MAPE: 74.93%
+2025-03-26 19:30:30,164 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5560, MAE: 0.4800, MAPE: 37.68%
+2025-03-26 19:30:30,165 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.4528, MAE: 2.3030, MAPE: 153.86%
+2025-03-26 19:30:30,165 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.5073, MAE: 2.2940, MAPE: 39.39%
+2025-03-26 19:30:30,165 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2249, MAE: 1.1290, MAPE: 40.30%
+2025-03-26 19:30:30,165 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4660, MAE: 0.4190, MAPE: 17.56%
+2025-03-26 19:30:30,165 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8534, MAE: 0.7980, MAPE: 18.54%
+2025-03-26 19:30:30,165 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9122, MAE: 0.7840, MAPE: 34.92%
+2025-03-26 19:30:30,166 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3939, MAE: 0.3680, MAPE: 55.47%
+2025-03-26 19:30:30,166 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0407, MAE: 0.9580, MAPE: 62.87%
+2025-03-26 19:30:30,166 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4677, MAE: 0.4410, MAPE: 70.54%
+2025-03-26 19:30:30,166 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7391, MAE: 0.6670, MAPE: 29.27%
+2025-03-26 19:30:30,166 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4146, MAE: 0.3580, MAPE: 30.10%
+2025-03-26 19:30:30,166 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2752, MAE: 0.2490, MAPE: 12.72%
+2025-03-26 19:30:30,166 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7604, MAE: 0.6540, MAPE: 44.43%
+2025-03-26 19:30:30,167 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6127, MAE: 0.5700, MAPE: 81.94%
+2025-03-26 19:30:30,167 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3194, MAE: 0.2770, MAPE: 39.47%
+2025-03-26 19:30:30,167 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0249, MAE: 0.9450, MAPE: 85.19%
+2025-03-26 19:30:30,167 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7254, MAE: 0.6400, MAPE: 25.33%
+2025-03-26 19:30:30,167 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5341, MAE: 0.4520, MAPE: 40.29%
+2025-03-26 19:30:30,167 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3797, MAE: 0.3440, MAPE: 61.97%
+2025-03-26 19:30:30,167 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2596, MAE: 0.2420, MAPE: 39.11%
+2025-03-26 19:30:30,168 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9491, MAE: 0.8460, MAPE: 45.75%
+2025-03-26 19:30:30,168 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.3087, MAE: 1.0250, MAPE: 39.98%
+2025-03-26 19:30:30,168 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2273, MAE: 0.1970, MAPE: 11.88%
+2025-03-26 19:30:30,168 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8778, MAE: 0.7440, MAPE: 47.28%
+2025-03-26 19:30:30,168 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0339, MAE: 0.8610, MAPE: 61.23%
+2025-03-26 19:30:30,168 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0262, MAE: 0.9630, MAPE: 203.66%
+2025-03-26 19:30:30,169 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5887, MAE: 0.5180, MAPE: 38.29%
+2025-03-26 19:30:30,169 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7876, MAE: 0.7100, MAPE: 41.26%
+2025-03-26 19:30:30,169 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7922, MAE: 0.7100, MAPE: 23.60%
+2025-03-26 19:30:30,169 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1944, MAE: 1.0750, MAPE: 24.74%
+2025-03-26 19:30:30,169 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2789, MAE: 1.0970, MAPE: 79.86%
+2025-03-26 19:30:30,169 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.7948, MAE: 1.6710, MAPE: 149.64%
+2025-03-26 19:30:30,169 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8459, MAE: 0.7660, MAPE: 80.45%
+2025-03-26 19:30:30,170 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2527, MAE: 0.2210, MAPE: 24.35%
+2025-03-26 19:30:30,170 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3438, MAE: 0.3180, MAPE: 45.54%
+2025-03-26 19:30:30,170 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3013, MAE: 0.2640, MAPE: 12.64%
+2025-03-26 19:30:30,170 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4548, MAE: 0.4140, MAPE: 28.63%
+2025-03-26 19:30:30,170 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.3521, MAE: 1.2680, MAPE: 84.66%
+2025-03-26 19:30:30,170 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1447, MAE: 0.9880, MAPE: 34.97%
+2025-03-26 19:30:30,170 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.3470, MAE: 1.2410, MAPE: 25.04%
+2025-03-26 19:30:30,171 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.1153, MAE: 1.8440, MAPE: 41.24%
+2025-03-26 19:30:30,171 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2704, MAE: 0.2530, MAPE: 10.18%
+2025-03-26 19:30:30,171 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6144, MAE: 0.5240, MAPE: 36.34%
+2025-03-26 19:30:30,171 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1032, MAE: 0.0900, MAPE: 66.87%
+2025-03-26 19:30:30,171 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5646, MAE: 0.4830, MAPE: 42.87%
+2025-03-26 19:30:30,171 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4735, MAE: 0.4240, MAPE: 33.17%
+2025-03-26 19:30:30,172 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.3414, MAE: 2.0940, MAPE: 87.82%
+2025-03-26 19:30:30,172 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2583, MAE: 0.2380, MAPE: 18.26%
+2025-03-26 19:30:30,172 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.0548, MAE: 1.9090, MAPE: 169.66%
+2025-03-26 19:30:30,172 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8444, MAE: 0.7090, MAPE: 45.22%
+2025-03-26 19:30:30,172 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8747, MAE: 0.8200, MAPE: 145.27%
+2025-03-26 19:30:30,172 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8443, MAE: 0.7530, MAPE: 23.74%
+2025-03-26 19:30:30,172 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5214, MAE: 0.4850, MAPE: 38.72%
+2025-03-26 19:30:30,173 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2559, MAE: 1.1550, MAPE: 102.14%
+2025-03-26 19:30:30,173 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6671, MAE: 0.5840, MAPE: 33.10%
+2025-03-26 19:30:30,173 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.0568, MAE: 1.9260, MAPE: 139.10%
+2025-03-26 19:30:30,173 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.4196, MAE: 1.2330, MAPE: 36.05%
+2025-03-26 19:30:30,173 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3759, MAE: 0.3500, MAPE: 64.73%
+2025-03-26 19:30:30,173 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5321, MAE: 0.4980, MAPE: 28.17%
+2025-03-26 19:30:30,174 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.5469, MAE: 1.4410, MAPE: 154.54%
+2025-03-26 19:30:30,174 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6533, MAE: 0.5970, MAPE: 22.03%
+2025-03-26 19:30:30,174 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6844, MAE: 0.6040, MAPE: 28.78%
+2025-03-26 19:30:30,174 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.9700, MAE: 2.8140, MAPE: 71.55%
+2025-03-26 19:30:30,174 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6339, MAE: 0.5970, MAPE: 74.57%
+2025-03-26 19:30:30,174 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8543, MAE: 0.7830, MAPE: 24.12%
+2025-03-26 19:30:30,174 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1460, MAE: 1.0650, MAPE: 100.59%
+2025-03-26 19:30:30,175 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5418, MAE: 0.5090, MAPE: 20.86%
+2025-03-26 19:30:30,175 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1730, MAE: 0.1570, MAPE: 10.53%
+2025-03-26 19:30:30,175 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9237, MAE: 0.8160, MAPE: 27.26%
+2025-03-26 19:30:30,175 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5232, MAE: 0.4850, MAPE: 64.79%
+2025-03-26 19:30:30,175 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0202, MAE: 0.7830, MAPE: 39.13%
+2025-03-26 19:30:30,175 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9225, MAE: 0.8170, MAPE: 48.52%
+2025-03-26 19:30:30,175 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5844, MAE: 0.5050, MAPE: 69.43%
+2025-03-26 19:30:30,176 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9767, MAE: 0.8860, MAPE: 33.25%
+2025-03-26 19:30:30,176 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2647, MAE: 0.2440, MAPE: 18.47%
+2025-03-26 19:30:30,176 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2288, MAE: 0.9090, MAPE: 34.03%
+2025-03-26 19:30:30,176 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2784, MAE: 1.1060, MAPE: 36.20%
+2025-03-26 19:30:30,176 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9257, MAE: 0.8590, MAPE: 63.81%
+2025-03-26 19:30:30,176 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.9622, MAE: 1.8690, MAPE: 95.17%
+2025-03-26 19:30:30,177 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8893, MAE: 0.8350, MAPE: 56.22%
+2025-03-26 19:30:30,177 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4334, MAE: 0.3680, MAPE: 77.98%
+2025-03-26 19:30:30,177 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8222, MAE: 0.7030, MAPE: 60.54%
+2025-03-26 19:30:30,177 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7012, MAE: 0.6260, MAPE: 44.89%
+2025-03-26 19:30:30,177 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.4710, MAE: 1.3610, MAPE: 77.79%
+2025-03-26 19:30:30,177 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7014, MAE: 0.6350, MAPE: 36.12%
+2025-03-26 19:30:30,177 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9706, MAE: 0.8280, MAPE: 50.29%
+2025-03-26 19:30:30,178 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1889, MAE: 0.9800, MAPE: 76.78%
+2025-03-26 19:30:30,178 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.4608, MAE: 1.2360, MAPE: 29.11%
+2025-03-26 19:30:30,178 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.6187, MAE: 1.5390, MAPE: 149.76%
+2025-03-26 19:30:30,178 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9952, MAE: 0.8950, MAPE: 42.76%
+2025-03-26 19:30:30,178 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7636, MAE: 0.6880, MAPE: 19.82%
+2025-03-26 19:30:30,178 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4706, MAE: 0.4340, MAPE: 43.85%
+2025-03-26 19:30:30,178 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5467, MAE: 0.4670, MAPE: 32.00%
+2025-03-26 19:30:30,179 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6868, MAE: 0.6420, MAPE: 42.26%
+2025-03-26 19:30:30,179 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6013, MAE: 0.5410, MAPE: 41.50%
+2025-03-26 19:30:30,179 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3156, MAE: 0.2740, MAPE: 21.88%
+2025-03-26 19:30:30,179 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3328, MAE: 0.2910, MAPE: 20.64%
+2025-03-26 19:30:30,179 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4069, MAE: 0.3570, MAPE: 29.92%
+2025-03-26 19:30:30,179 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9027, MAE: 0.8450, MAPE: 118.21%
+2025-03-26 19:30:30,180 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3275, MAE: 0.3000, MAPE: 10.18%
+2025-03-26 19:30:30,180 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3288, MAE: 0.3040, MAPE: 10.08%
+2025-03-26 19:30:30,180 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.2202, MAE: 1.9900, MAPE: 86.94%
+2025-03-26 19:30:30,180 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3837, MAE: 0.3320, MAPE: 41.05%
+2025-03-26 19:30:30,180 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4967, MAE: 0.4500, MAPE: 18.26%
+2025-03-26 19:30:30,180 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5361, MAE: 0.5010, MAPE: 22.68%
+2025-03-26 19:30:30,181 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2993, MAE: 0.2740, MAPE: 20.96%
+2025-03-26 19:30:30,181 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5358, MAE: 0.4470, MAPE: 31.72%
+2025-03-26 19:30:30,181 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6808, MAE: 0.6290, MAPE: 116.43%
+2025-03-26 19:30:30,181 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7596, MAE: 0.6770, MAPE: 20.64%
+2025-03-26 19:30:30,181 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3033, MAE: 0.2850, MAPE: 14.84%
+2025-03-26 19:30:30,182 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.4435, MAE: 1.3370, MAPE: 94.29%
+2025-03-26 19:30:30,182 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8131, MAE: 0.7570, MAPE: 30.25%
+2025-03-26 19:30:30,182 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2366, MAE: 1.1760, MAPE: 173.40%
+2025-03-26 19:30:30,182 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.4481, MAE: 1.3890, MAPE: 249.50%
+2025-03-26 19:30:30,182 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.1895, MAE: 1.9690, MAPE: 166.48%
+2025-03-26 19:30:30,182 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4263, MAE: 0.3850, MAPE: 30.37%
+2025-03-26 19:30:30,182 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7498, MAE: 0.6640, MAPE: 35.73%
+2025-03-26 19:30:30,183 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9237, MAE: 0.8230, MAPE: 46.03%
+2025-03-26 19:30:30,183 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9202, MAE: 0.8280, MAPE: 48.25%
+2025-03-26 19:30:30,183 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7492, MAE: 0.6370, MAPE: 50.44%
+2025-03-26 19:30:30,183 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4170, MAE: 0.3630, MAPE: 41.65%
+2025-03-26 19:30:30,183 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.4637, MAE: 2.2670, MAPE: 145.04%
+2025-03-26 19:30:30,183 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2000, MAE: 0.1800, MAPE: 15.04%
+2025-03-26 19:30:30,183 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.0453, MAE: 0.0430, MAPE: 0.44%
+2025-03-26 19:30:30,184 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3027, MAE: 0.2520, MAPE: 14.19%
+2025-03-26 19:30:30,184 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.5769, MAE: 1.3450, MAPE: 60.73%
+2025-03-26 19:30:30,184 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3953, MAE: 0.3470, MAPE: 23.02%
+2025-03-26 19:30:30,184 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9346, MAE: 0.8410, MAPE: 43.36%
+2025-03-26 19:30:30,184 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9837, MAE: 0.8400, MAPE: 40.10%
+2025-03-26 19:30:30,184 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5907, MAE: 0.5470, MAPE: 66.12%
+2025-03-26 19:30:30,184 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4141, MAE: 0.3720, MAPE: 16.95%
+2025-03-26 19:30:30,185 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5077, MAE: 0.4790, MAPE: 76.82%
+2025-03-26 19:30:30,185 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1728, MAE: 0.1540, MAPE: 11.13%
+2025-03-26 19:30:30,185 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5884, MAE: 0.5000, MAPE: 46.20%
+2025-03-26 19:30:30,185 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4220, MAE: 0.3910, MAPE: 69.36%
+2025-03-26 19:30:30,185 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1425, MAE: 1.0670, MAPE: 78.94%
+2025-03-26 19:30:30,185 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4976, MAE: 0.4630, MAPE: 51.11%
+2025-03-26 19:30:30,185 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9590, MAE: 0.7990, MAPE: 74.70%
+2025-03-26 19:30:30,186 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4234, MAE: 0.3570, MAPE: 33.44%
+2025-03-26 19:30:30,186 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7758, MAE: 0.7320, MAPE: 55.45%
+2025-03-26 19:30:30,186 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3353, MAE: 0.2950, MAPE: 66.57%
+2025-03-26 19:30:30,186 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8033, MAE: 0.7390, MAPE: 110.38%
+2025-03-26 19:30:30,186 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1225, MAE: 0.9910, MAPE: 29.92%
+2025-03-26 19:30:30,186 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4355, MAE: 0.4080, MAPE: 16.02%
+2025-03-26 19:30:30,186 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5814, MAE: 0.5170, MAPE: 25.24%
+2025-03-26 19:30:30,187 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.4376, MAE: 1.3160, MAPE: 167.04%
+2025-03-26 19:30:30,187 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2364, MAE: 0.2040, MAPE: 13.34%
+2025-03-26 19:30:30,187 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8477, MAE: 0.7990, MAPE: 143.56%
+2025-03-26 19:30:30,187 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3310, MAE: 0.2670, MAPE: 24.50%
+2025-03-26 19:30:30,187 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6799, MAE: 0.5690, MAPE: 49.08%
+2025-03-26 19:30:30,187 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6345, MAE: 0.5880, MAPE: 65.92%
+2025-03-26 19:30:30,187 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.1458, MAE: 1.8260, MAPE: 74.29%
+2025-03-26 19:30:30,188 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1958, MAE: 1.1340, MAPE: 144.84%
+2025-03-26 19:30:30,188 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3451, MAE: 0.3050, MAPE: 23.36%
+2025-03-26 19:30:30,188 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.7941, MAE: 1.6060, MAPE: 37.52%
+2025-03-26 19:30:30,188 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.3215, MAE: 1.2410, MAPE: 124.89%
+2025-03-26 19:30:30,188 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5857, MAE: 0.5110, MAPE: 32.06%
+2025-03-26 19:30:30,188 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5102, MAE: 0.4710, MAPE: 30.16%
+2025-03-26 19:30:30,188 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8285, MAE: 0.6850, MAPE: 38.14%
+2025-03-26 19:30:30,189 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 3.0992, MAE: 2.8780, MAPE: 147.77%
+2025-03-26 19:30:30,195 - src.utils.evaluator - INFO - Batch evaluation - RMSE: 0.8451, MAE: 0.7612, MAPE: 55.73%
+2025-03-26 19:30:30,418 - __main__ - INFO -
+Model vs Naive Baseline Comparison:
+2025-03-26 19:30:30,418 - __main__ - INFO - Metric               Model      Naive      Improvement
+2025-03-26 19:30:30,418 - __main__ - INFO - --------------------------------------------------
+2025-03-26 19:30:30,418 - __main__ - INFO - RMSE                 0.6217    0.8451    26.43%
+2025-03-26 19:30:30,418 - __main__ - INFO - MAE                  0.5244    0.7612    31.11%
+2025-03-26 19:30:30,418 - __main__ - INFO - MAPE                 36.23%    55.73%    34.98%
+2025-03-26 19:30:30,418 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5888, MAE: 0.5160, MAPE: 45.06%
+2025-03-26 19:30:30,419 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5377, MAE: 0.4530, MAPE: 38.85%
+2025-03-26 19:30:30,419 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3764, MAE: 0.3250, MAPE: 30.71%
+2025-03-26 19:30:30,419 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.7027, MAE: 1.5930, MAPE: 140.55%
+2025-03-26 19:30:30,419 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8094, MAE: 0.7730, MAPE: 108.08%
+2025-03-26 19:30:30,419 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2427, MAE: 1.1280, MAPE: 38.00%
+2025-03-26 19:30:30,419 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5406, MAE: 0.4730, MAPE: 33.84%
+2025-03-26 19:30:30,420 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4624, MAE: 0.4060, MAPE: 32.12%
+2025-03-26 19:30:30,420 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4955, MAE: 0.4210, MAPE: 19.14%
+2025-03-26 19:30:30,420 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6628, MAE: 0.6180, MAPE: 34.61%
+2025-03-26 19:30:30,420 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5760, MAE: 0.5010, MAPE: 40.72%
+2025-03-26 19:30:30,420 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9088, MAE: 0.8440, MAPE: 53.36%
+2025-03-26 19:30:30,420 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2106, MAE: 1.0020, MAPE: 61.05%
+2025-03-26 19:30:30,420 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1592, MAE: 0.1460, MAPE: 8.64%
+2025-03-26 19:30:30,421 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1840, MAE: 1.1190, MAPE: 44.36%
+2025-03-26 19:30:30,421 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9949, MAE: 0.8290, MAPE: 44.65%
+2025-03-26 19:30:30,421 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7733, MAE: 0.7140, MAPE: 60.54%
+2025-03-26 19:30:30,421 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.3437, MAE: 1.2710, MAPE: 49.48%
+2025-03-26 19:30:30,421 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1639, MAE: 1.1010, MAPE: 99.35%
+2025-03-26 19:30:30,421 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7398, MAE: 0.6920, MAPE: 106.45%
+2025-03-26 19:30:30,422 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8536, MAE: 0.8180, MAPE: 161.71%
+2025-03-26 19:30:30,422 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9161, MAE: 0.7850, MAPE: 50.46%
+2025-03-26 19:30:30,422 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8800, MAE: 0.7630, MAPE: 40.89%
+2025-03-26 19:30:30,422 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5981, MAE: 0.5540, MAPE: 70.02%
+2025-03-26 19:30:30,422 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2581, MAE: 0.2360, MAPE: 8.92%
+2025-03-26 19:30:30,422 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7269, MAE: 0.6450, MAPE: 40.54%
+2025-03-26 19:30:30,422 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1990, MAE: 1.0360, MAPE: 80.04%
+2025-03-26 19:30:30,423 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3605, MAE: 0.3260, MAPE: 13.73%
+2025-03-26 19:30:30,423 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9955, MAE: 0.9460, MAPE: 83.55%
+2025-03-26 19:30:30,423 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0344, MAE: 0.9520, MAPE: 46.39%
+2025-03-26 19:30:30,423 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3243, MAE: 0.2880, MAPE: 17.70%
+2025-03-26 19:30:30,423 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7805, MAE: 0.7390, MAPE: 79.35%
+2025-03-26 19:30:30,423 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2268, MAE: 0.2100, MAPE: 14.68%
+2025-03-26 19:30:30,423 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7689, MAE: 0.7120, MAPE: 21.54%
+2025-03-26 19:30:30,424 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3591, MAE: 0.3310, MAPE: 38.68%
+2025-03-26 19:30:30,424 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6747, MAE: 0.6000, MAPE: 24.78%
+2025-03-26 19:30:30,424 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4503, MAE: 0.4180, MAPE: 67.79%
+2025-03-26 19:30:30,424 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4138, MAE: 0.3670, MAPE: 76.45%
+2025-03-26 19:30:30,424 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7696, MAE: 0.7140, MAPE: 74.93%
+2025-03-26 19:30:30,424 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5560, MAE: 0.4800, MAPE: 37.68%
+2025-03-26 19:30:30,424 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.4528, MAE: 2.3030, MAPE: 153.86%
+2025-03-26 19:30:30,425 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.5073, MAE: 2.2940, MAPE: 39.39%
+2025-03-26 19:30:30,425 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2249, MAE: 1.1290, MAPE: 40.30%
+2025-03-26 19:30:30,425 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4660, MAE: 0.4190, MAPE: 17.56%
+2025-03-26 19:30:30,425 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8534, MAE: 0.7980, MAPE: 18.54%
+2025-03-26 19:30:30,425 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9122, MAE: 0.7840, MAPE: 34.92%
+2025-03-26 19:30:30,425 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3939, MAE: 0.3680, MAPE: 55.47%
+2025-03-26 19:30:30,425 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0407, MAE: 0.9580, MAPE: 62.87%
+2025-03-26 19:30:30,426 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4677, MAE: 0.4410, MAPE: 70.54%
+2025-03-26 19:30:30,426 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7391, MAE: 0.6670, MAPE: 29.27%
+2025-03-26 19:30:30,426 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4146, MAE: 0.3580, MAPE: 30.10%
+2025-03-26 19:30:30,426 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2752, MAE: 0.2490, MAPE: 12.72%
+2025-03-26 19:30:30,426 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7604, MAE: 0.6540, MAPE: 44.43%
+2025-03-26 19:30:30,426 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6127, MAE: 0.5700, MAPE: 81.94%
+2025-03-26 19:30:30,427 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3194, MAE: 0.2770, MAPE: 39.47%
+2025-03-26 19:30:30,427 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0249, MAE: 0.9450, MAPE: 85.19%
+2025-03-26 19:30:30,427 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7254, MAE: 0.6400, MAPE: 25.33%
+2025-03-26 19:30:30,427 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5341, MAE: 0.4520, MAPE: 40.29%
+2025-03-26 19:30:30,427 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3797, MAE: 0.3440, MAPE: 61.97%
+2025-03-26 19:30:30,427 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2596, MAE: 0.2420, MAPE: 39.11%
+2025-03-26 19:30:30,427 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9491, MAE: 0.8460, MAPE: 45.75%
+2025-03-26 19:30:30,428 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.3087, MAE: 1.0250, MAPE: 39.98%
+2025-03-26 19:30:30,428 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2273, MAE: 0.1970, MAPE: 11.88%
+2025-03-26 19:30:30,428 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8778, MAE: 0.7440, MAPE: 47.28%
+2025-03-26 19:30:30,428 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0339, MAE: 0.8610, MAPE: 61.23%
+2025-03-26 19:30:30,428 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0262, MAE: 0.9630, MAPE: 203.66%
+2025-03-26 19:30:30,428 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5887, MAE: 0.5180, MAPE: 38.29%
+2025-03-26 19:30:30,428 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7876, MAE: 0.7100, MAPE: 41.26%
+2025-03-26 19:30:30,429 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7922, MAE: 0.7100, MAPE: 23.60%
+2025-03-26 19:30:30,429 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1944, MAE: 1.0750, MAPE: 24.74%
+2025-03-26 19:30:30,429 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2789, MAE: 1.0970, MAPE: 79.86%
+2025-03-26 19:30:30,429 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.7948, MAE: 1.6710, MAPE: 149.64%
+2025-03-26 19:30:30,429 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8459, MAE: 0.7660, MAPE: 80.45%
+2025-03-26 19:30:30,429 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2527, MAE: 0.2210, MAPE: 24.35%
+2025-03-26 19:30:30,430 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3438, MAE: 0.3180, MAPE: 45.54%
+2025-03-26 19:30:30,430 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3013, MAE: 0.2640, MAPE: 12.64%
+2025-03-26 19:30:30,430 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4548, MAE: 0.4140, MAPE: 28.63%
+2025-03-26 19:30:30,430 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.3521, MAE: 1.2680, MAPE: 84.66%
+2025-03-26 19:30:30,430 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1447, MAE: 0.9880, MAPE: 34.97%
+2025-03-26 19:30:30,430 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.3470, MAE: 1.2410, MAPE: 25.04%
+2025-03-26 19:30:30,430 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.1153, MAE: 1.8440, MAPE: 41.24%
+2025-03-26 19:30:30,431 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2704, MAE: 0.2530, MAPE: 10.18%
+2025-03-26 19:30:30,431 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6144, MAE: 0.5240, MAPE: 36.34%
+2025-03-26 19:30:30,431 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1032, MAE: 0.0900, MAPE: 66.87%
+2025-03-26 19:30:30,431 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5646, MAE: 0.4830, MAPE: 42.87%
+2025-03-26 19:30:30,431 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4735, MAE: 0.4240, MAPE: 33.17%
+2025-03-26 19:30:30,431 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.3414, MAE: 2.0940, MAPE: 87.82%
+2025-03-26 19:30:30,431 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2583, MAE: 0.2380, MAPE: 18.26%
+2025-03-26 19:30:30,432 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.0548, MAE: 1.9090, MAPE: 169.66%
+2025-03-26 19:30:30,432 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8444, MAE: 0.7090, MAPE: 45.22%
+2025-03-26 19:30:30,432 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8747, MAE: 0.8200, MAPE: 145.27%
+2025-03-26 19:30:30,432 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8443, MAE: 0.7530, MAPE: 23.74%
+2025-03-26 19:30:30,432 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5214, MAE: 0.4850, MAPE: 38.72%
+2025-03-26 19:30:30,432 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2559, MAE: 1.1550, MAPE: 102.14%
+2025-03-26 19:30:30,433 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6671, MAE: 0.5840, MAPE: 33.10%
+2025-03-26 19:30:30,433 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.0568, MAE: 1.9260, MAPE: 139.10%
+2025-03-26 19:30:30,433 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.4196, MAE: 1.2330, MAPE: 36.05%
+2025-03-26 19:30:30,433 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3759, MAE: 0.3500, MAPE: 64.73%
+2025-03-26 19:30:30,433 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5321, MAE: 0.4980, MAPE: 28.17%
+2025-03-26 19:30:30,433 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.5469, MAE: 1.4410, MAPE: 154.54%
+2025-03-26 19:30:30,434 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6533, MAE: 0.5970, MAPE: 22.03%
+2025-03-26 19:30:30,434 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6844, MAE: 0.6040, MAPE: 28.78%
+2025-03-26 19:30:30,434 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.9700, MAE: 2.8140, MAPE: 71.55%
+2025-03-26 19:30:30,434 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6339, MAE: 0.5970, MAPE: 74.57%
+2025-03-26 19:30:30,434 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8543, MAE: 0.7830, MAPE: 24.12%
+2025-03-26 19:30:30,434 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1460, MAE: 1.0650, MAPE: 100.59%
+2025-03-26 19:30:30,435 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5418, MAE: 0.5090, MAPE: 20.86%
+2025-03-26 19:30:30,435 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1730, MAE: 0.1570, MAPE: 10.53%
+2025-03-26 19:30:30,435 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9237, MAE: 0.8160, MAPE: 27.26%
+2025-03-26 19:30:30,435 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5232, MAE: 0.4850, MAPE: 64.79%
+2025-03-26 19:30:30,435 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.0202, MAE: 0.7830, MAPE: 39.13%
+2025-03-26 19:30:30,435 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9225, MAE: 0.8170, MAPE: 48.52%
+2025-03-26 19:30:30,436 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5844, MAE: 0.5050, MAPE: 69.43%
+2025-03-26 19:30:30,436 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9767, MAE: 0.8860, MAPE: 33.25%
+2025-03-26 19:30:30,436 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2647, MAE: 0.2440, MAPE: 18.47%
+2025-03-26 19:30:30,436 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2288, MAE: 0.9090, MAPE: 34.03%
+2025-03-26 19:30:30,436 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2784, MAE: 1.1060, MAPE: 36.20%
+2025-03-26 19:30:30,436 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9257, MAE: 0.8590, MAPE: 63.81%
+2025-03-26 19:30:30,436 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.9622, MAE: 1.8690, MAPE: 95.17%
+2025-03-26 19:30:30,437 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8893, MAE: 0.8350, MAPE: 56.22%
+2025-03-26 19:30:30,437 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4334, MAE: 0.3680, MAPE: 77.98%
+2025-03-26 19:30:30,437 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8222, MAE: 0.7030, MAPE: 60.54%
+2025-03-26 19:30:30,437 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7012, MAE: 0.6260, MAPE: 44.89%
+2025-03-26 19:30:30,437 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.4710, MAE: 1.3610, MAPE: 77.79%
+2025-03-26 19:30:30,437 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7014, MAE: 0.6350, MAPE: 36.12%
+2025-03-26 19:30:30,437 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9706, MAE: 0.8280, MAPE: 50.29%
+2025-03-26 19:30:30,438 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1889, MAE: 0.9800, MAPE: 76.78%
+2025-03-26 19:30:30,438 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.4608, MAE: 1.2360, MAPE: 29.11%
+2025-03-26 19:30:30,438 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.6187, MAE: 1.5390, MAPE: 149.76%
+2025-03-26 19:30:30,438 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9952, MAE: 0.8950, MAPE: 42.76%
+2025-03-26 19:30:30,438 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7636, MAE: 0.6880, MAPE: 19.82%
+2025-03-26 19:30:30,438 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4706, MAE: 0.4340, MAPE: 43.85%
+2025-03-26 19:30:30,439 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5467, MAE: 0.4670, MAPE: 32.00%
+2025-03-26 19:30:30,439 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6868, MAE: 0.6420, MAPE: 42.26%
+2025-03-26 19:30:30,439 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6013, MAE: 0.5410, MAPE: 41.50%
+2025-03-26 19:30:30,439 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3156, MAE: 0.2740, MAPE: 21.88%
+2025-03-26 19:30:30,439 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3328, MAE: 0.2910, MAPE: 20.64%
+2025-03-26 19:30:30,439 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4069, MAE: 0.3570, MAPE: 29.92%
+2025-03-26 19:30:30,440 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9027, MAE: 0.8450, MAPE: 118.21%
+2025-03-26 19:30:30,440 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3275, MAE: 0.3000, MAPE: 10.18%
+2025-03-26 19:30:30,440 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3288, MAE: 0.3040, MAPE: 10.08%
+2025-03-26 19:30:30,440 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.2202, MAE: 1.9900, MAPE: 86.94%
+2025-03-26 19:30:30,440 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3837, MAE: 0.3320, MAPE: 41.05%
+2025-03-26 19:30:30,440 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4967, MAE: 0.4500, MAPE: 18.26%
+2025-03-26 19:30:30,440 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5361, MAE: 0.5010, MAPE: 22.68%
+2025-03-26 19:30:30,441 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2993, MAE: 0.2740, MAPE: 20.96%
+2025-03-26 19:30:30,441 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5358, MAE: 0.4470, MAPE: 31.72%
+2025-03-26 19:30:30,441 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6808, MAE: 0.6290, MAPE: 116.43%
+2025-03-26 19:30:30,441 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7596, MAE: 0.6770, MAPE: 20.64%
+2025-03-26 19:30:30,441 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3033, MAE: 0.2850, MAPE: 14.84%
+2025-03-26 19:30:30,441 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.4435, MAE: 1.3370, MAPE: 94.29%
+2025-03-26 19:30:30,442 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8131, MAE: 0.7570, MAPE: 30.25%
+2025-03-26 19:30:30,442 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.2366, MAE: 1.1760, MAPE: 173.40%
+2025-03-26 19:30:30,442 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.4481, MAE: 1.3890, MAPE: 249.50%
+2025-03-26 19:30:30,442 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.1895, MAE: 1.9690, MAPE: 166.48%
+2025-03-26 19:30:30,442 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4263, MAE: 0.3850, MAPE: 30.37%
+2025-03-26 19:30:30,442 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7498, MAE: 0.6640, MAPE: 35.73%
+2025-03-26 19:30:30,442 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9237, MAE: 0.8230, MAPE: 46.03%
+2025-03-26 19:30:30,443 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9202, MAE: 0.8280, MAPE: 48.25%
+2025-03-26 19:30:30,443 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7492, MAE: 0.6370, MAPE: 50.44%
+2025-03-26 19:30:30,443 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4170, MAE: 0.3630, MAPE: 41.65%
+2025-03-26 19:30:30,443 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.4637, MAE: 2.2670, MAPE: 145.04%
+2025-03-26 19:30:30,443 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2000, MAE: 0.1800, MAPE: 15.04%
+2025-03-26 19:30:30,443 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.0453, MAE: 0.0430, MAPE: 0.44%
+2025-03-26 19:30:30,444 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3027, MAE: 0.2520, MAPE: 14.19%
+2025-03-26 19:30:30,444 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.5769, MAE: 1.3450, MAPE: 60.73%
+2025-03-26 19:30:30,444 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3953, MAE: 0.3470, MAPE: 23.02%
+2025-03-26 19:30:30,444 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9346, MAE: 0.8410, MAPE: 43.36%
+2025-03-26 19:30:30,444 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9837, MAE: 0.8400, MAPE: 40.10%
+2025-03-26 19:30:30,444 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5907, MAE: 0.5470, MAPE: 66.12%
+2025-03-26 19:30:30,444 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4141, MAE: 0.3720, MAPE: 16.95%
+2025-03-26 19:30:30,445 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5077, MAE: 0.4790, MAPE: 76.82%
+2025-03-26 19:30:30,445 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.1728, MAE: 0.1540, MAPE: 11.13%
+2025-03-26 19:30:30,445 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5884, MAE: 0.5000, MAPE: 46.20%
+2025-03-26 19:30:30,445 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4220, MAE: 0.3910, MAPE: 69.36%
+2025-03-26 19:30:30,445 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1425, MAE: 1.0670, MAPE: 78.94%
+2025-03-26 19:30:30,445 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4976, MAE: 0.4630, MAPE: 51.11%
+2025-03-26 19:30:30,446 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.9590, MAE: 0.7990, MAPE: 74.70%
+2025-03-26 19:30:30,446 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4234, MAE: 0.3570, MAPE: 33.44%
+2025-03-26 19:30:30,446 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.7758, MAE: 0.7320, MAPE: 55.45%
+2025-03-26 19:30:30,446 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3353, MAE: 0.2950, MAPE: 66.57%
+2025-03-26 19:30:30,446 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8033, MAE: 0.7390, MAPE: 110.38%
+2025-03-26 19:30:30,446 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1225, MAE: 0.9910, MAPE: 29.92%
+2025-03-26 19:30:30,446 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.4355, MAE: 0.4080, MAPE: 16.02%
+2025-03-26 19:30:30,447 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5814, MAE: 0.5170, MAPE: 25.24%
+2025-03-26 19:30:30,447 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.4376, MAE: 1.3160, MAPE: 167.04%
+2025-03-26 19:30:30,447 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.2364, MAE: 0.2040, MAPE: 13.34%
+2025-03-26 19:30:30,447 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8477, MAE: 0.7990, MAPE: 143.56%
+2025-03-26 19:30:30,447 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3310, MAE: 0.2670, MAPE: 24.50%
+2025-03-26 19:30:30,447 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6799, MAE: 0.5690, MAPE: 49.08%
+2025-03-26 19:30:30,448 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.6345, MAE: 0.5880, MAPE: 65.92%
+2025-03-26 19:30:30,448 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 2.1458, MAE: 1.8260, MAPE: 74.29%
+2025-03-26 19:30:30,448 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.1958, MAE: 1.1340, MAPE: 144.84%
+2025-03-26 19:30:30,448 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.3451, MAE: 0.3050, MAPE: 23.36%
+2025-03-26 19:30:30,448 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.7941, MAE: 1.6060, MAPE: 37.52%
+2025-03-26 19:30:30,448 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 1.3215, MAE: 1.2410, MAPE: 124.89%
+2025-03-26 19:30:30,448 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5857, MAE: 0.5110, MAPE: 32.06%
+2025-03-26 19:30:30,449 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.5102, MAE: 0.4710, MAPE: 30.16%
+2025-03-26 19:30:30,449 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 0.8285, MAE: 0.6850, MAPE: 38.14%
+2025-03-26 19:30:30,449 - src.utils.evaluator - INFO - Forecast evaluation - RMSE: 3.0992, MAE: 2.8780, MAPE: 147.77%
+2025-03-26 19:30:30,454 - src.utils.evaluator - INFO - Batch evaluation - RMSE: 0.8451, MAE: 0.7612, MAPE: 55.73%
+2025-03-26 19:30:30,458 - src.utils.evaluator - INFO - Evaluation with uncertainty - RMSE: 0.8451, Coverage: 0.17, Interval width: 0.4340
+2025-03-26 19:30:30,458 - __main__ - INFO -
+Uncertainty Evaluation Comparison:
+2025-03-26 19:30:30,458 - __main__ - INFO - Metric               Model      Naive
+2025-03-26 19:30:30,458 - __main__ - INFO - --------------------------------------------------
+2025-03-26 19:30:30,458 - __main__ - INFO - RMSE                 0.6217    0.8451
+2025-03-26 19:30:30,458 - __main__ - INFO - Coverage             0.33    0.17
+2025-03-26 19:30:30,458 - __main__ - INFO - Interval Width       0.5100    0.4340
+2025-03-26 19:30:30,458 - __main__ - INFO -
+Evaluation complete. Results saved to results/baseline_evaluation

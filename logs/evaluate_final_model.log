@@ -1,0 +1,11 @@
+=== Custom Model Evaluation for Time Series Forecasting ===
+This will evaluate the custom model's performance on time series forecasting
+Model path: results/final_model/lora_r8_lr0.0001_ctx768/lora_r8_lr0.0001_ctx768_best
+Tokenizer: Qwen/Qwen2.5-0.5B-Instruct
+Number of samples: -1
+Forecast length: 5
+Context length: 20
+Uncertainty samples: 20
+Batch size: 32
+=== Done! ===
+Results are available in results/final_model_evaluation/

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llmtime-forecasting"
+version = "0.1.0"
+description = "LLMTIME implementation for predator-prey time series forecasting using language models"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "Xin Li", email = "xl628@cam.ac.uk"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "accelerate>=1.5.2",
+    "h5py>=3.13.0",
+    "jsonpointer>=3.0.0",
+    "jupyter>=1.1.1",
+    "plotly>=6.0.1",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "torch>=2.0.0",
+    "torchinfo>=1.8.0",
+    "transformers>=4.49.0",
+    "wandb>=0.19.8",
+    "matplotlib>=3.5.0",
+    "numpy>=1.20.0",
+    "tqdm>=4.60.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "isort",
+    "mypy",
+    "pytest",
+    "pytest-cov",
+]

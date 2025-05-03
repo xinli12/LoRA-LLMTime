@@ -1,0 +1,9 @@
+=== Baseline Evaluation of Qwen2.5-Instruct for Time Series Forecasting ===
+This will evaluate the untrained model's performance on time series forecasting
+Number of samples: -1
+Forecast length: 5
+Context length: 20
+Uncertainty samples: 20
+Batch size: 32
+=== Done! ===
+Results are available in results/baseline_evaluation/
